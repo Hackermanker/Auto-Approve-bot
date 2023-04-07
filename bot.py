@@ -108,10 +108,10 @@ async def dbtool(_, m : Message):
     x = all_groups()
     tot = int(xx + x)
     await m.reply_text(text=f"""
-🍀 Chats Stats 🍀
-🙋‍♂️ Users : `{xx}`
-👥 Groups : `{x}`
-🚧 Total users & groups : `{tot}` """)
+📊 Chats Stats 
+• Users : `{xx}`
+• Groups : `{x}`
+• Total users & groups : `{tot}` """)
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Broadcast ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
