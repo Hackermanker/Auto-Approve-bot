@@ -45,8 +45,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📊 Updates", url="https://t.me/Astra_botz"),
-                        InlineKeyboardButton("🍿 Movies", url="https://t.me/Movies_channel_malayalam")
+                        InlineKeyboardButton("📊 Updates", url="https://t.me/Astra_botz")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/Request_acceptorV1_bot?startgroup")
                     ]
